@@ -10,7 +10,7 @@ import BottomTabs from "../components/home/BottomTabs";
 import { Divider } from "react-native-elements";
 
 const YELP_API_KEY =
-  "gqiurJGoKwPSk4Y_1aAVj6BqDLVOGECfXDeEc9xC6FUO61FYY20fpPzCxT7ManJiySLiUe1cN1FbBD4FKzR1jbayjP9x9U1jVLMnegDxrzXI6pxS5XHimuCOQ73tYXYx";
+  "YOUR_API_KEY";
 
 const Home = ({navigation}) => {
   const [restaurantData, setRestaurantData] = useState(localRestaurants);
